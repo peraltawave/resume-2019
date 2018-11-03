@@ -222,6 +222,9 @@ section {
   .skills-container {
     width: 100%;
   }
+  .container-content {
+    padding-bottom: 0px;
+  }
 }
 .icon {
   font-size: 60px;
@@ -247,23 +250,26 @@ section {
   font-size: 0.8em;
 }
 //carousel
-.container-carousel{
-  display: block;
-}
-
-.carousel {
-  height: auto !important;
-}
 .carousel-inner {
   height: 90vh;
+  width: 66vw;
 }
 
 .img-fluid-slide {
-  width: 66vw;
-  min-height: 100%;
-  position: relative;
-  overflow: hidden;
-  object-fit: cover;
-  animation-name: zoom;
-  animation-duration: 10s;
+  margin-top: 30px;
+  width: auto;
+}
+
+@media (max-width: 992px) {
+  .carousel-inner {
+    height: auto;
+    min-height: 70vh;
+    width: 95vw;
+  }
+}
+
+@media (max-width: 499px) {
+  .img-fluid-slide {
+    width: 98vw;
+  }
 }

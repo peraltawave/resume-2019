@@ -8,34 +8,29 @@ export default class Studies extends Component {
   render() {
     const experiences = [
       {
-        date: "2013-2017",
-        company: "Newworks",
-        place: "Genève(Suisse)",
-        position: "Opérateur en impression numérique"
+        date: "Septembre 2018 - Février 2019",
+        diplome: "Développement Web et Mobile",
+        option: "Javascript/react/nodejs",
+        place: "Wild Code School - Nantes",
       },
       {
-        date: "2007-2013",
-        company: "Imprimerie Grand Large",
-        place: "Haute-Goulaine(44)",
-        position: "Opérateur en impression numérique"
+        date: "2004-2006",
+        diplome: "BTS Communication Visuelle",
+        option: "option multimédia",
+        place: "Lycée Le Paraclet - Quimper",
       },
       {
-        date: "Juillet 2006",
-        company: "Gulfstream communication",
-        place: "Nantes(44)",
-        position: "Graphiste stagiaire"
+        date: "2002-2004",
+        diplome: "BAC PRO Artisanat et Métiers d’Art",
+        option: "option communication graphique",
+        mention: "mention bien",
+        place: "Lycée Saint-Pierre La Joliverie - St-Sébastien",
       },
       {
-        date: "Mai 2005",
-        company: "THÉO COMMUNICATION",
-        place: "Nantes(44)",
-        position: "Graphiste stagiaire"
-      },
-      {
-        date: "Mars 2004",
-        company: "TMC",
-        place: "Nantes(44)",
-        position: "Graphiste stagiaire"
+        date: "2000-2002",
+        diplome: "CAP Dessinateur d’exécution",
+        option: "option communication graphique",
+        place: "Lycée Saint-Pierre La Joliverie - St-Sébastien",
       }
     ]
     return (
@@ -56,9 +51,10 @@ export default class Studies extends Component {
               {experiences.map(para => (
               <div className="date-box text-center">
               <span className="font-weight-bold text-light">{para.date}</span>
-              <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.company}</h5>
+              <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.diplome}</h5>
+              <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.option}</h5>
+              <h6 className="font-weight-bold text-light">{para.mention}</h6>
               <span className="font-weight-bold txt-grey">{para.place}</span><br/>
-              <span className="font-weight-bold txt-grey">{para.position}</span>
               </div>
               )
               )}
