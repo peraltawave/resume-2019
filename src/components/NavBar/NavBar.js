@@ -35,19 +35,19 @@ export default class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
               <NavItem>
-                <NavLink className="text-center" href="#skills" onClick={this.toggle}>Mes compétences</NavLink>
+                <NavLink className="text-center ml-2 mr-2" href="#skills" onClick={this.toggle}>Mes compétences</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center" href="#portfolio" onClick={this.toggle}>Mon portfolio</NavLink>
+                <NavLink className="text-center ml-2 mr-2" href="#portfolio" onClick={this.toggle}>Mon portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center" href="#studies" onClick={this.toggle}>Mes études</NavLink>
+                <NavLink className="text-center ml-2 mr-2" href="#studies" onClick={this.toggle}>Mes études</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center" href="#expe" onClick={this.toggle}>Mes expériences</NavLink>
+                <NavLink className="text-center ml-2 mr-2" href="#expe" onClick={this.toggle}>Mes expériences</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center" href="https://github.com/reactstrap/reactstrap" onClick={this.toggle}>Contact</NavLink>
+                <NavLink className="text-center  ml-2 mr-2" href="#contact" onClick={this.toggle}>Contact</NavLink>
               </NavItem>
               
             </Nav>

@@ -83,12 +83,10 @@ export default class Skills extends Component {
                 <div className="text-icon font-weight-bold">PHOTOSHOP</div>
               </div>
 
-            <div className="logo-skill flex-center">
-                <i className="fa fa-sync-alt icon"></i>
-                <div className="text-icon font-weight-bold">METHODES AGILES</div>
-            </div>
-
-
+              <div className="logo-skill flex-center">
+                  <i className="fa fa-sync-alt icon"></i>
+                  <div className="text-icon font-weight-bold">METHODES AGILES</div>
+              </div>
 
             </div>
           </div>

@@ -10,7 +10,7 @@ export default class Studies extends Component {
       {
         date: "Septembre 2018 - Février 2019",
         diplome: "Développement Web et Mobile",
-        option: "Javascript/react/nodejs",
+        option: "Javascript/react",
         place: "Wild Code School - Nantes",
       },
       {
@@ -49,12 +49,12 @@ export default class Studies extends Component {
           <div className="container-content bg-grey">
             <div className="container-date">
               {experiences.map(para => (
-              <div className="date-box text-center">
-              <span className="font-weight-bold text-light">{para.date}</span>
-              <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.diplome}</h5>
-              <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.option}</h5>
-              <h6 className="font-weight-bold text-light">{para.mention}</h6>
-              <span className="font-weight-bold txt-grey">{para.place}</span><br/>
+              <div className="date-box text-center" key={para}>
+                <span className="font-weight-bold text-light">{para.date}</span>
+                <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.diplome}</h5>
+                <h5 className="text-uppercase font-weight-bold txt-green">{para.option}</h5>
+                <h6 className="font-weight-bold text-light">{para.mention}</h6>
+                <span className="font-weight-bold txt-grey">{para.place}</span><br/>
               </div>
               )
               )}

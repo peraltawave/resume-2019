@@ -76,17 +76,17 @@ export default class CarouselPortfolio extends Component {
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
-          key={item.src}
+          key={item}
         >
-        <div className="flex-center">
-          <img className="img-fluid-slide"src={item.src} alt={item.altText} />
-        </div>
-        <h1 className="text-center txt-green mt-4">{item.title}</h1>
-        <h2 className="text-center txt-grey">
-          <a href={item.link}><i className="fas fa-desktop m-3 fa-lg"></i></a>
-          <i class="fa fa-info-circle m-3 fa-lg" fa-2x></i>
-          <a href={item.link}><i className="fab fa-github m-3 fa-lg"></i></a>
-        </h2>
+          <div className="flex-center">
+            <img className="img-fluid-slide" src={item.src} alt={item.altText} />
+          </div>
+          <h1 className="text-center txt-green mt-4">{item.title}</h1>
+          <h2 className="text-center txt-grey">
+            <a href={item.link}><i className="fas fa-desktop m-3 fa-lg"></i></a>
+            <i className="fa fa-info-circle m-3 fa-lg"></i>
+            <a href={item.link}><i className="fab fa-github m-3 fa-lg"></i></a>
+          </h2>
         </CarouselItem>
       );
     });

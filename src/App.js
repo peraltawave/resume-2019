@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills'
 import Portfolio from './components/Portfolio/Portfolio'
 import Studies from './components/Studies/Studies'
 import Expe from './components/Expe/Expe'
+import Contact from './components/Contact/Contact'
 
 import './App.css';
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Portfolio />
         <Studies />
         <Expe />
+        <Contact />
       </div>
     );
   }

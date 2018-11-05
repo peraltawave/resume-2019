@@ -34,6 +34,7 @@ button:focus {
   background-color: @grey;
 }
 
+
 .txt-green {
   color: @green;
 }
@@ -79,6 +80,7 @@ a {
   color:@lightgrey;
   &:hover {
     color:@green;
+    text-decoration: none;
   }
   &:active {
     color:@green;
@@ -222,9 +224,6 @@ section {
   .skills-container {
     width: 100%;
   }
-  .container-content {
-    padding-bottom: 0px;
-  }
 }
 .icon {
   font-size: 60px;
@@ -241,17 +240,18 @@ section {
 // Expe
 .container-date {
   padding: 20px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .date-box {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 0.8em;
 }
 //carousel
 .carousel-inner {
-  height: 90vh;
   width: 66vw;
 }
 
@@ -271,5 +271,41 @@ section {
 @media (max-width: 499px) {
   .img-fluid-slide {
     width: 98vw;
+  }
+}
+
+.container-contact {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-interest {
+  width: 100%;
+  min-height: 30vh;
+  background-image: @green-gradient;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 45px;
+
+  p {
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 745px) {
+  .container-interest {
+    flex-direction: column;
+    p {
+      width: 100%;
+      margin:0px;
+      padding: 20px;
+    }
   }
 }

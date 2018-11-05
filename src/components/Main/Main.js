@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class Main extends Component {
   render() {
     return (
-      <div className="bg-grey-op-09 main">
+      <div className="bg-grey-op-09">
         <div className="container-main flex-center">
           <div className="container-profil">
             <div className="rounded-circle circle-profil flex-center">
