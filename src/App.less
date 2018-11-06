@@ -34,6 +34,11 @@ button:focus {
   background-color: @grey;
 }
 
+.bg-green {
+  background-color: @green;
+}
+
+
 
 .txt-green {
   color: @green;
@@ -45,6 +50,10 @@ button:focus {
 
 .txt-grey {
   color:@lightgrey;
+}
+
+.txt-dark-grey {
+  color:@grey;
 }
 
 h1 {
@@ -251,26 +260,45 @@ section {
   font-size: 0.8em;
 }
 //carousel
+
 .carousel-inner {
   width: 66vw;
 }
 
+
 .img-fluid-slide {
   margin-top: 30px;
-  width: auto;
+  width: 400px;
+  z-index:-3;
+}
+.info-box {
+  height: 200px;
+}
+
+.info-item {
+  font-size: 0.9em;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 992px) {
   .carousel-inner {
-    height: auto;
-    min-height: 70vh;
     width: 95vw;
   }
 }
 
 @media (max-width: 499px) {
   .img-fluid-slide {
-    width: 98vw;
+    width: 85%;
+  }
+  .info-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info-box {
+    height: 250px;
   }
 }
 

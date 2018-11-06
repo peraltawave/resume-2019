@@ -24,6 +24,9 @@ button:focus {
 .bg-grey {
   background-color: #1a1a1a;
 }
+.bg-green {
+  background-color: #18b283;
+}
 .txt-green {
   color: #18b283;
 }
@@ -32,6 +35,9 @@ button:focus {
 }
 .txt-grey {
   color: #696969;
+}
+.txt-dark-grey {
+  color: #1a1a1a;
 }
 h1 {
   font-weight: 700;
@@ -278,18 +284,34 @@ section {
 }
 .img-fluid-slide {
   margin-top: 30px;
-  width: auto;
+  width: 400px;
+  z-index: -3;
+}
+.info-box {
+  height: 200px;
+}
+.info-item {
+  font-size: 0.9em;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 992px) {
   .carousel-inner {
-    height: auto;
-    min-height: 70vh;
     width: 95vw;
   }
 }
 @media (max-width: 499px) {
   .img-fluid-slide {
-    width: 98vw;
+    width: 85%;
+  }
+  .info-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info-box {
+    height: 250px;
   }
 }
 .container-contact {

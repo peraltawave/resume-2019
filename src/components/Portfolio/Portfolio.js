@@ -19,7 +19,7 @@ export default class Portfolio extends Component {
             </div>
           </ScrollableAnchor>
 
-          <div className="container-content bg-grey-op-095">
+          <div className="container-content flex-center bg-grey-op-095">
             <div className="container-carousel">
                 <CarouselPortfolio />
             </div>
