@@ -303,7 +303,7 @@ section {
 }
 @media (max-width: 499px) {
   .img-fluid-slide {
-    width: 85%;
+    width: 80%;
   }
   .info-item {
     width: 90%;

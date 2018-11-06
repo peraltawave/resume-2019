@@ -8,31 +8,40 @@ import {
 
 const items = [
   {
-    src: process.env.PUBLIC_URL+'/assets/img/iphone-bicool.png',
+    src: process.env.PUBLIC_URL+'/assets/img/bicool.png',
     altText: 'Bicool',
     title: 'Bicool',
-    description: 'Application de réservation de vélos réalisée en méthodologie agile avec une équipe de 4 personnes',
-    tools: ["Git", "React", "Bootstrap", "API JC Decaux", "Google Map"],
+    description: 'Application web pour la réservation de vélos réalisée en équipe',
+    tools: ["Git", "Github", "React", "Bootstrap", "API JC Decaux", "Google Map","méthodologie agile"],
     link: 'https://geoffroy72.github.io/',
     github: 'https://github.com/olivierbretaud/nantes-0918-javascript-easybike'
   },
   {
-    src: process.env.PUBLIC_URL+'/assets/img/iphone-bicool.png',
+    src: process.env.PUBLIC_URL+'/assets/img/un-mome-a-paris.png',
     altText: 'Un-môme-à-Paris',
     title: 'Un môme à Paris',
-    description: 'Blog de Photographie réalisé avec une équipe de 4 personnes',
-    tools: ["Git", "Bootstrap", "Animations CSS3", "HTML5"],
+    description: 'Blog de Photographie réalisé en équipe',
+    tools: ["Git","Github", "Bootstrap", "Animations CSS3", "HTML5"],
     link: 'http://un-mome-a-paris.olivierbretaud.info/',
     github: 'https://github.com/olivierbretaud/Un_mome_a_Paris'
   },
   {
-    src: process.env.PUBLIC_URL+'/assets/img/iphone-bicool.png',
+    src: process.env.PUBLIC_URL+'/assets/img/retzvolution.png',
     altText: 'Reztvolution',
-    title: 'retzvolution.com',
-    description: 'Site Web réalisé pour association en 2010',
+    title: 'Retzvolution',
+    description: "Site web réalisé pour l'association Retzvolution en 2010 avec le CMS SPIP",
     tools: ["SPIP(CMS)", "CSS3", "HTML", "Webdesign", "Illustration"],
     link: 'http://retzvolution.com/',
-    github: 'https://github.com/WildCodeSchool/nantes-0918-javascript-easybike'
+    github: ''
+  },
+  {
+    src: process.env.PUBLIC_URL+'/assets/img/verts-luisants.png',
+    altText: 'verts-Luisants',
+    title: 'Verts-Luisants',
+    description: "Site Web pour l'association Verts-Luisants (en cours de réalisation)",
+    tools: ["PLUXML(CMS)", "CSS3", "HTML5", "Webdesign"],
+    link: '',
+    github: 'https://github.com/olivierbretaud/Verts-Luisants'
   }
 ];
 
@@ -103,7 +112,7 @@ export default class CarouselPortfolio extends Component {
               <p className="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc">{item.description}</p>
               <p className="text-center">{item.tools.map((tool, index) =>{
                   return (
-                    <span class="badge badge-secondary m-2 bg-green txt-dark-grey">{tool}</span>
+                    <span class ="badge badge-secondary m-1 bg-green txt-dark-grey" key={index}>{tool}</span>
                   )
               })}</p>
             </div>
