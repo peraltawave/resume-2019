@@ -48,8 +48,8 @@ export default class Studies extends Component {
 
           <div className="container-content bg-grey">
             <div className="container-date">
-              {experiences.map(para => (
-              <div className="date-box text-center" key={para}>
+              {experiences.map((para, index) => (
+              <div className="date-box text-center" key={index}>
                 <span className="font-weight-bold text-light">{para.date}</span>
                 <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.diplome}</h5>
                 <h5 className="text-uppercase font-weight-bold txt-green">{para.option}</h5>

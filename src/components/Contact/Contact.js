@@ -23,7 +23,7 @@ export default class Contact extends Component {
 
           <span>
             <a href="https://github.com/olivierbretaud"><i className="fab fa-github m-3 fa-2x"></i></a>
-            <a href="https://codepen.io/olivierbretaud/#"><i class="fab fa-codepen m-3 fa-2x"></i></a>
+            <a href="https://codepen.io/olivierbretaud/#"><i className="fab fa-codepen m-3 fa-2x"></i></a>
             <a href="https://www.behance.net/olivierbre460e"><i className="fab fa-behance-square m-3 fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/olivier-bretaud/"><i className="fab fa-linkedin m-3 fa-2x"></i></a>
           </span>

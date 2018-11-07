@@ -112,7 +112,7 @@ export default class CarouselPortfolio extends Component {
               <p className="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc">{item.description}</p>
               <p className="text-center">{item.tools.map((tool, index) =>{
                   return (
-                    <span class ="badge badge-secondary m-1 bg-green txt-dark-grey" key={index}>{tool}</span>
+                    <span className ="badge badge-secondary m-1 bg-green txt-dark-grey" key={index}>{tool}</span>
                   )
               })}</p>
             </div>
