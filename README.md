@@ -24,7 +24,7 @@ In the project directory, you can run:
 "reactstrap": "^6.5.0"
 
 ## Folder Structure
-
+...bash
 ├── package.json
 ├── package-lock.json
 ├── public
@@ -73,3 +73,4 @@ In the project directory, you can run:
     │   ├── blur-code-578px.jpg
     │   └── blur-code-opt.jpg
     └── index.js
+...
