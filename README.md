@@ -1,4 +1,4 @@
-# This my resume 2019!
+# My resume 2019
 
 ## Installation
 
@@ -14,7 +14,6 @@ In the project directory, you can run:
 `npm start`
 
 ##  Dependencies
-
 "bootstrap": "^4.1.3",
 "jquery": "^3.3.1",
 "react": "^16.6.0",
@@ -24,7 +23,7 @@ In the project directory, you can run:
 "reactstrap": "^6.5.0"
 
 ## Folder Structure
-...bash
+```console
 ├── package.json
 ├── package-lock.json
 ├── public
@@ -72,5 +71,4 @@ In the project directory, you can run:
     ├── img
     │   ├── blur-code-578px.jpg
     │   └── blur-code-opt.jpg
-    └── index.js
-...
+    └── index.js```
