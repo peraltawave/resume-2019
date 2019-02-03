@@ -1,9 +1,11 @@
 @grey: rgba(26,26, 26, 1);
 @grey-op-09: rgba(26,26, 26, 0.9);
 @grey-op-095: rgba(20,20, 20, 0.95);
-@lightgrey: rgba(105, 105, 105, 1);
+@lightgrey: rgb(211, 211, 211);
 @green: rgba(24, 178, 131, 1);
+@red: rgba(158, 28, 35, 1);  
 @green-gradient:  linear-gradient(to top,  rgba(24, 178, 131, 0.9),  rgba(81, 230, 230, 0.9));
+@red-gradient:  linear-gradient(to top,   rgba(104, 0, 0, 0.9),  rgba(158, 28, 35, 0.9));
 
 .bg-grey-op-09 {
   background-color: @grey-op-09;
@@ -37,11 +39,17 @@ button:focus {
 .bg-green {
   background-color: @green;
 }
-
+.bg-red {
+  background-color: @red;
+}
 
 
 .txt-green {
   color: @green;
+}
+
+.txt-red{
+  color: @red;
 }
 
 .txt-white {
@@ -68,7 +76,7 @@ h2 {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: @grey;
+  background-color: @red;
   background-image: url("@{images}/blur-code-opt.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -88,11 +96,11 @@ body {
 a {
   color:@lightgrey;
   &:hover {
-    color:@green;
+    color:@red;
     text-decoration: none;
   }
   &:active {
-    color:@green;
+    color:@red;
   }
 }
 
@@ -119,7 +127,7 @@ section {
   min-height: 100vh;
 }
 
-.container-profil {
+.container-profile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,10 +139,11 @@ section {
   z-index: 3;
 }
 
-.circle-profil {
+.circle-profile {
   width: 200px;
   height: 200px;
-  background-image: @green-gradient;
+  background-image: @red-gradient;
+  
 }
 
 
@@ -152,7 +161,7 @@ section {
 .container-picto {
   width: 33.33%;
   min-height: 100vh;
-  background-image: @green-gradient;
+  background-image: @red-gradient;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -314,7 +323,7 @@ section {
 .container-interest {
   width: 100%;
   min-height: 30vh;
-  background-image: @green-gradient;
+  background-image: @red-gradient;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,7 +334,7 @@ section {
     padding: 30px;
     text-align: center;
   }
-}
+} 
 
 @media (max-width: 745px) {
   .container-interest {

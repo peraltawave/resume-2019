@@ -28,26 +28,29 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar className="fixed-bottom bg-grey font-weight-bold d-flex justify-content-center" expand="md">
+        <Navbar className="fixed-bottom bg-grey font-weight-normal d-flex justify-content-center text-lowercase text-center" expand="md">
             <NavbarToggler onClick={this.toggle}>
                <i className="fa fa-bars fa-lg txt-green"></i>
             </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto" navbar>
-              <NavItem>
-                <NavLink className="text-center ml-2 mr-2" href="#skills" onClick={this.toggle}>Mes compétences</NavLink>
+            <NavItem>
+                <NavLink className="ml-2 mr-2" href="#main" onClick={this.toggle}>Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center ml-2 mr-2" href="#portfolio" onClick={this.toggle}>Mon portfolio</NavLink>
+                <NavLink className="ml-2 mr-2" href="#skills" onClick={this.toggle}>Skills</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center ml-2 mr-2" href="#studies" onClick={this.toggle}>Mes études</NavLink>
+                <NavLink className="ml-2 mr-2" href="#portfolio" onClick={this.toggle}>Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center ml-2 mr-2" href="#expe" onClick={this.toggle}>Mes expériences</NavLink>
+                <NavLink className="ml-2 mr-2" href="#education" onClick={this.toggle}>Education</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-center  ml-2 mr-2" href="#contact" onClick={this.toggle}>Contact</NavLink>
+                <NavLink className="ml-2 mr-2" href="#experience" onClick={this.toggle}>Experience</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="ml-2 mr-2" href="#contact" onClick={this.toggle}>Contact</NavLink>
               </NavItem>
               
             </Nav>

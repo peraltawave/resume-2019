@@ -9,27 +9,32 @@ export default class Contact extends Component {
       <section>
         <div className="container-contact bg-grey flex-center">
 
-          <h5 className="font-weight-bold txt-green">Adresse</h5>
-          <p className="txt-white text-center mb-4">
-            1, allée de la bédière<br/>
-            74240 GAILLARD
-          </p>
+          <h5 className="font-weight-bold txt-green">location</h5>
+          <a className="badge badge-light mb-4" href="#main">tucson, az</a>
+        
 
-          <h5 className="font-weight-bold txt-green">Téléphone</h5>
-          <a className="badge badge-light mb-4" href="tel:+33632321639">06 32 32 16 39</a>
 
-          <h5 className="font-weight-bold txt-green">E-mail</h5>
-          <a className="badge badge-light mb-4" href="mailto:olivierbretaud@hotmail.fr">olivierbretaud@hotmail.fr</a>
+          <h5 className="font-weight-bold txt-green">online</h5>
+          <a className="badge badge-light mb-4" href="https://www.mperalta.com">www.mperalta.com</a>
+
+
+
+          <h5 className="font-weight-bold txt-green">mobile</h5>
+          <a className="badge badge-light mb-4">(520) 975-0159</a>
+
+          <h5 className="font-weight-bold txt-green">e-mail</h5>
+          <a className="badge badge-light mb-4" href="mailto:peraltawave@gmail.com">peraltawave@gmail.com</a>
 
           <span>
-            <a href="https://github.com/olivierbretaud"><i className="fab fa-github m-3 fa-2x"></i></a>
-            <a href="https://codepen.io/olivierbretaud/#"><i className="fab fa-codepen m-3 fa-2x"></i></a>
-            <a href="https://www.behance.net/olivierbre460e"><i className="fab fa-behance-square m-3 fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/olivier-bretaud/"><i className="fab fa-linkedin m-3 fa-2x"></i></a>
+            <a href="https://github.com/peraltawave" target="new"><i className="fab fa-github-alt m-3 fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/mperalta" target="new"><i className="fab fa-linkedin m-3 fa-2x"></i></a>
           </span>
-
+{/* 
           <a className="text-center" href={process.env.PUBLIC_URL+'/assets/CV-OLIVIER-BRETAUD-2018-FR.pdf'} download>
-            <h5 className="font-weight-bold mt-2">Téléchargez mon cv</h5>
+            <h5 className="font-weight-bold mt-2">downloadResume</h5>
+          </a> */}
+          <a className="text-center" href={'https://www.mperalta.com'} download>
+            <h5 className="font-weight-bold mt-2">mperalta.com</h5>
           </a>
 
         </div>
@@ -37,14 +42,17 @@ export default class Contact extends Component {
         <div className="container-interest">
         
           <p>
-            <span className="font-weight-bold">Centres d'intérêts</span><br/>
-            randonnée, voyage,<br/>dessin, design graphique
+            <span className="font-weight-bold text-light">Interests</span>
+            <br/>
+            <span className="font-weight-normal text-light">react / front-end
+            <br/>
+            athletics / travel / entertainment</span>
           </p>
           <p>
-            <span className="font-weight-bold">Langues</span><br/>
-            Français (langue maternelle)<br/>
-            Anglais (bonne connaissance)<br/>
-            Espagnol (niveau élémentaire)
+            <span className="font-weight-bold text-light">Languages</span>
+            
+            <br/>
+            <span className="font-weight-normal text-light">English <br /> Spanish</span>
           </p>
         </div>
       </section>

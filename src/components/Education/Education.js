@@ -8,51 +8,38 @@ export default class Studies extends Component {
   render() {
     const experiences = [
       {
-        date: "Septembre 2018 - Février 2019",
-        diplome: "Développement Web et Mobile",
-        option: "Javascript/react",
-        place: "Wild Code School - Nantes",
+        date: "July 2018 - January 2019",
+        diplome: "Full Stack Web Development",
+        option: "Javascript / react / express / node",
+        place: "University of Arizona",
       },
       {
-        date: "2004-2006",
-        diplome: "BTS Communication Visuelle",
-        option: "option multimédia",
-        place: "Lycée Le Paraclet - Quimper",
-      },
-      {
-        date: "2002-2004",
-        diplome: "BAC PRO Artisanat et Métiers d’Art",
-        option: "option communication graphique",
-        mention: "mention bien",
-        place: "Lycée Saint-Pierre La Joliverie - St-Sébastien",
-      },
-      {
-        date: "2000-2002",
-        diplome: "CAP Dessinateur d’exécution",
-        option: "option communication graphique",
-        place: "Lycée Saint-Pierre La Joliverie - St-Sébastien",
+        date: "1992-1996",
+        diplome: "BA Communications",
+        option: "Television Production / Spanish",
+        place: "Loyola Marymount University",
       }
     ]
     return (
       
         <section className="container-picto-left">
-          <ScrollableAnchor id={'studies'}>
+          <ScrollableAnchor id={'education'}>
             <div className="container-picto">
               <div className="picto-box">
                 <img className="cercle-anim"src={process.env.PUBLIC_URL+'/assets/img/picto_cercle.svg'} alt="cercle"/>
                 <img className="picto" src={process.env.PUBLIC_URL+'/assets/img/picto_etudes.svg'} alt="études"/>
               </div>
-              <h4 className="font-weight-bold mt-2">Mes études</h4>
+              <h4 className="font-weight-bold mt-2">education</h4>
             </div>
           </ScrollableAnchor>
 
-          <div className="container-content bg-grey">
+          <div className="container-content bg-grey-op-095">
             <div className="container-date">
               {experiences.map((para, index) => (
               <div className="date-box text-center" key={index}>
                 <span className="font-weight-bold text-light">{para.date}</span>
-                <h5 className="text-uppercase font-weight-bold txt-green mb-0">{para.diplome}</h5>
-                <h5 className="text-uppercase font-weight-bold txt-green">{para.option}</h5>
+                <h5 className="text-uppercase font-weight-bold txt-red mb-0">{para.diplome}</h5>
+                <span className="text-uppercase font-weight-normal text-light">{para.option}</span>
                 <h6 className="font-weight-bold text-light">{para.mention}</h6>
                 <span className="font-weight-bold txt-grey">{para.place}</span><br/>
               </div>

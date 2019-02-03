@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 
+# Exclude any PSD/AI source
+*.psd
+*.ai
+
 # testing
 /coverage
 

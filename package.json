@@ -1,13 +1,14 @@
 {
-  "name": "cv-react-2018",
+  "name": "miguelPeralta-resume-2019",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://peraltawave.github.io/resume-2019",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "jquery": "^3.3.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5",
+    "react-scripts": "^2.1.3",
     "react-scrollable-anchor": "^0.6.1",
     "reactstrap": "^6.5.0"
   },

@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
                 <img className="cercle-anim"src={process.env.PUBLIC_URL+'/assets/img/picto_cercle.svg'} alt="cercle"/>
                 <img className="picto" src={process.env.PUBLIC_URL+'/assets/img/picto_works.svg'} alt="works"/>
               </div>
-              <h4 className="font-weight-bold mt-2">Mon portfolio </h4>
+              <h4 className="font-weight-bold mt-2">portfolio </h4>
             </div>
           </ScrollableAnchor>
 

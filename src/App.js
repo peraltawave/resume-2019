@@ -4,8 +4,8 @@ import NavBar from  './components/NavBar/NavBar'
 import Main from './components/Main/Main'
 import Skills from './components/Skills/Skills'
 import Portfolio from './components/Portfolio/Portfolio'
-import Studies from './components/Studies/Studies'
-import Expe from './components/Expe/Expe'
+import Education from './components/Education/Education'
+import Experience from './components/Experience/Experience'
 import Contact from './components/Contact/Contact'
 
 import './App.css';
@@ -18,8 +18,8 @@ class App extends Component {
         <Main />
         <Skills />
         <Portfolio />
-        <Studies />
-        <Expe />
+        <Education />
+        <Experience />
         <Contact />
       </div>
     );

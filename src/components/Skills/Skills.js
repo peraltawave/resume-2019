@@ -11,11 +11,11 @@ export default class Skills extends Component {
                 <img className="cercle-anim"src={process.env.PUBLIC_URL+'/assets/img/picto_cercle.svg'} alt="cercle"/>
                 <img className="picto" src={process.env.PUBLIC_URL+'/assets/img/picto_comp.svg'} alt="cercle"/>
               </div>
-              <h4 className="font-weight-bold mt-2">Mes compétences</h4>
+              <h4 className="font-weight-bold mt-2">skills</h4>
             </div>
           </ScrollableAnchor>
 
-          <div className="container-content bg-grey">
+          <div className="container-content bg-grey-op-095">
             <div className="skills-container">
 
               <div className="logo-skill flex-center">
@@ -68,10 +68,10 @@ export default class Skills extends Component {
                 <div className="text-icon font-weight-bold">VISUAL STUDIO</div>
               </div>
 
-              <div className="logo-skill flex-center">
+              {/* <div className="logo-skill flex-center">
                 <i className="devicon-linux-plain icon"></i>
                 <div className="text-icon font-weight-bold">LINUX</div>
-              </div>
+              </div> */}
 
               <div className="logo-skill flex-center">
                 <i className="devicon-illustrator-plain icon"></i>
@@ -83,10 +83,10 @@ export default class Skills extends Component {
                 <div className="text-icon font-weight-bold">PHOTOSHOP</div>
               </div>
 
-              <div className="logo-skill flex-center">
+              {/* <div className="logo-skill flex-center">
                   <i className="fa fa-sync-alt icon"></i>
                   <div className="text-icon font-weight-bold">METHODES AGILES</div>
-              </div>
+              </div> */}
 
             </div>
           </div>
