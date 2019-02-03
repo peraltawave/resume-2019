@@ -1,7 +1,7 @@
 {
   "name": "miguelPeralta-resume-2019",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage" : "https://peraltawave.github.io/resume-2019",
   "dependencies": {
     "bootstrap": "^4.1.3",
