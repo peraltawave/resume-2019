@@ -8,26 +8,26 @@ import {
 
 const items = [
   {
+    title: 'newsImage',
     src: process.env.PUBLIC_URL+'/assets/img/newsImage.png',
     altText: 'newsImage',
-    title: 'newsImage',
     description: 'news represented by images',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Material UI"],
     link: 'https://dry-atoll-82427.herokuapp.com/article',
     github: 'https://github.com/peraltawave/newsimage-react-app-006'
   },
   {
+    title: 'prestoSports',
     src: process.env.PUBLIC_URL+'/assets/img/presto-collage-2.png',
     altText: 'presto-redesign',
-    title: 'prestoSports',
     description: "rebranding of prestoSports.com",
     tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
     link: 'http://www.prestosports.com/',
   },
   {
-    src: process.env.PUBLIC_URL+'/assets/img/cv-petfinder.png',
-    altText: 'petFinder',
     title: 'petFinder',
+    src: process.env.PUBLIC_URL+'/assets/img/cv-petfinder-003.png',
+    altText: 'petFinder',
     description: 'mobile app to report found animals',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Semantic UI"],
     link: 'https://www.peraltawave.com/petfinder/index.html',
@@ -35,9 +35,9 @@ const items = [
   },
 
   {
+    title: 'University of Arizona',
     src: process.env.PUBLIC_URL+'/assets/img/btfd-001.png',
     altText: 'BTFD',
-    title: 'University of Arizona',
     description: 'graphic design for athletic dept',
     tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
     link: 'http://www.mperalta.com/',

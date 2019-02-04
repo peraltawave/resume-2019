@@ -4,6 +4,11 @@
 .bg-grey-op-095 {
   background-color: rgba(20, 20, 20, 0.95);
 }
+
+.bg-grey-op-080 {
+  background-color: rgba(20, 20, 20, 0.80);
+}
+
 .flex-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,8 +30,7 @@ button:focus {
   background-color: #1a1a1a;
 }
 .bg-green {
-  /* background-color: #18b283; */
-  background-color: #9b1d22;
+  background-color: #18b283;
 }
 .bg-red{
   color: #9b1d22
@@ -298,7 +302,7 @@ section {
 }
 .img-fluid-slide {
   margin-top: 30px;
-  width: 400px;
+  width: 500px;
   z-index: -3;
 }
 .info-box {
@@ -306,7 +310,7 @@ section {
 }
 .info-item {
   font-size: 0.9em;
-  width: 400px;
+  width:  600px;
   margin-left: auto;
   margin-right: auto;
 }

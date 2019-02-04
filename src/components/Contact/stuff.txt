@@ -7,35 +7,10 @@ export default class Contact extends Component {
 
     const stuff = [
       {
-        icon: <i className="fas fa-compass icon"></i>,
-        title: 'Location',
         location: 'Tucson, AZ',
-        link: 'https://goo.gl/maps/mhw5VGNT79k',
-        linkname: 'plot'
-      },
-      {
-        icon: <i className="fas fa-globe icon"></i>,
-        title: 'Online',
-        location: 'mperalta.com',
-        link: 'https://www.mperalta.com',
-        linkname: 'visit'
-      },
-      {
-        icon: <i className="fas fa-mobile-alt icon"></i>,
-        title: 'Mobile',
-        location: '(520) 975-0159',
-        link: 'tel:5209750159',
-        linkname: 'dial'
-      },
-      {
-        icon: <i className="fas fa-envelope icon"></i>,
-        title: 'E-mail',
-        location: 'peraltawave@gmail.com',
-        link: 'mailto:peraltawave@gmail.com',
-        linkname: 'send'
+        icon: 'fas fa-compass icon',
+        link: '#',
       }
-
-
     ]
 
 
@@ -55,19 +30,15 @@ export default class Contact extends Component {
 
 
           <div className="container-content bg-grey-op-095">
-            <div className="container-contact">
+            <div className="container-date">
               {stuff.map((para, index) => (
               <div key={index} className="date-box text-center">
-
+                <div>{para.location}</div>
                 <span className="font-weight-bold text-light">{para.icon}</span>
-
-                <h5 className="text-uppercase font-weight-bold txt-red mt-2">{para.title}</h5>
-
+                <h5 className="text-uppercase font-weight-bold txt-red mb-0">{para.link}</h5>
                 <span className="font-weight-bold txt-grey">{para.location}</span><br/>
-                                
-                {/* <span className="font-weight-normal txt-grey"><a href={para.link}>{para.linkname}</a></span> */}
-
-                <a className="badge badge-light mt-2" href={para.link}>{para.linkname}</a>
+                <span className="font-weight-bold txt-grey">{para.location}</span><br/>
+                <span className="font-weight-normal txt-grey"><a href={para.link}>{para.location}</a></span>
 
                 </div>
               )

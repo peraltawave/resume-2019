@@ -22,7 +22,7 @@ export default class Studies extends Component {
     ]
     return (
       
-        <section className="container-picto-left">
+        <section className="container-picto-right">
           <ScrollableAnchor id={'education'}>
             <div className="container-picto">
               <div className="picto-box">
