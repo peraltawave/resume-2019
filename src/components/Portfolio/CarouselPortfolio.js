@@ -14,7 +14,7 @@ const items = [
     description: 'news represented by images',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Material UI"],
     link: 'https://dry-atoll-82427.herokuapp.com/article',
-    github: 'https://github.com/peraltawave/newsimage-react-app-006'
+    github: 'https://github.com/peraltawave/newsimage-react-app-006',
   },
   {
     title: 'prestoSports',
@@ -23,6 +23,8 @@ const items = [
     description: "rebranding of prestoSports.com",
     tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
     link: 'http://www.prestosports.com/',
+    github: '',
+
   },
   {
     title: 'petFinder',
@@ -31,7 +33,7 @@ const items = [
     description: 'mobile app to report found animals',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Semantic UI"],
     link: 'https://www.peraltawave.com/petfinder/index.html',
-    github: 'https://github.com/peraltawave/phasma2'
+    github: 'https://github.com/peraltawave/phasma2',
   },
 
   {
@@ -41,7 +43,7 @@ const items = [
     description: 'graphic design for athletic dept',
     tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
     link: 'http://www.mperalta.com/',
-    github: ''
+    github: '',
   }
 ];
 
@@ -104,7 +106,7 @@ export default class CarouselPortfolio extends Component {
             <div className="info-item">
               <p className="text-center font-weight-normal txt-grey mt-2 mb-0 info-item-desc">{item.description}</p>
               <p></p>
-              <p className="text-center">{item.tools.map((tool, index) =>{
+              <p className="text-center">{item.tools.map((tool, index) => {
                   return (
                     <span className ="badge badge-secondary m-1 bg-red txt-dark-grey" key={index}>{tool}</span>
                   )
@@ -113,8 +115,8 @@ export default class CarouselPortfolio extends Component {
             </div>
             {item.link !== '' ?
               <p className="text-center txt-grey mb-0">
-                <a href={item.link} target="new"><i className="fas fa-desktop m-2 fa-lg"></i></a>
-                <a href={item.github} target="new"><i className="fab fa-github m-2 fa-lg"></i></a>
+                <a href={item.link}><i className="fas fa-desktop m-2 fa-lg"></i></a>
+                <a href={item.github}><i className="fab fa-github-alt m-2 fa-lg"></i></a>
               </p>
             :
             null }
