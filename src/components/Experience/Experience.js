@@ -13,7 +13,7 @@ export default class Experience extends Component {
       {
         img: <img src={process.env.PUBLIC_URL+'/assets/img/logo_presto_200.png'} alt="PrestoSports"/>,
         date: "2013-2018",
-        company: "PrestoSports",
+        company: "PrestoSports, Inc.",
         place: "Rockville, MD",
         position: "Creative Director",
         link: 'http://www.prestosports.com/'
@@ -21,7 +21,7 @@ export default class Experience extends Component {
       {
         img: <img src={process.env.PUBLIC_URL+'/assets/img/logo_cnet_200x200.png'} alt="CNET Networks"/>,
         date: "2007-2013",
-        company: "CNET",
+        company: "CNET Networks",
         place: "Miami, FL",
         position: "Art Director",
         link: 'http://www.cnet.com/'
@@ -53,13 +53,11 @@ export default class Experience extends Component {
             <div className="container-date">
               {experiences.map((para, index) => (
               <div key={index} className="date-box text-center">
-                <div>{para.img}</div>
+                <div><a href={para.link}>{para.img}</a></div>
                 <span className="font-weight-bold text-light">{para.date}</span>
                 <h5 className="text-uppercase font-weight-bold txt-red mb-0">{para.company}</h5>
-                <span className="font-weight-bold txt-grey">{para.place}</span><br/>
                 <span className="font-weight-bold txt-grey">{para.position}</span><br/>
-                <span className="font-weight-normal txt-grey"><a href={para.link}>{para.company}</a></span>
-
+                <span className="font-weight-normal txt-grey">{para.place}</span><br/>
                 </div>
               )
               )}

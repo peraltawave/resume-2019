@@ -23,7 +23,7 @@ const items = [
     description: "rebranding of prestoSports.com",
     tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
     link: 'http://www.prestosports.com/',
-    github: '',
+    github: '#portfolio',
 
   },
   {
@@ -33,18 +33,27 @@ const items = [
     description: 'mobile app to report found animals',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Semantic UI"],
     link: 'https://www.peraltawave.com/petfinder/index.html',
-    github: 'https://github.com/peraltawave/phasma2',
+    github: 'https://github.com/peraltawave/phasma',
   },
-
   {
-    title: 'University of Arizona',
-    src: process.env.PUBLIC_URL+'/assets/img/btfd-001.png',
-    altText: 'BTFD',
-    description: 'graphic design for athletic dept',
-    tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
-    link: 'http://www.mperalta.com/',
+    title: 'Moncton Magic',
+    src: process.env.PUBLIC_URL+'/assets/img/moncton_magic_001.png',
+    altText: 'Magic',
+    description: 'canadian professional basketball',
+    tools: ["Webdesign","photoShop", "illustrator"],
+    link: 'http://www.monctonmagic.ca/landing/index',
+    github: '',
+  },
+  {
+    title: 'London Lightning',
+    src: process.env.PUBLIC_URL+'/assets/img/london_lightning_001.png',
+    altText: 'Lightning',
+    description: 'canadian professional basketball',
+    tools: ["Webdesign","photoShop", "illustrator"],
+    link: 'http://www.lightningbasketball.ca/landing/index',
     github: '',
   }
+  
 ];
 
 
@@ -115,8 +124,8 @@ export default class CarouselPortfolio extends Component {
             </div>
             {item.link !== '' ?
               <p className="text-center txt-grey mb-0">
-                <a href={item.link}><i className="fas fa-desktop m-2 fa-lg"></i></a>
-                <a href={item.github}><i className="fab fa-github-alt m-2 fa-lg"></i></a>
+                <a href={item.link} target="new"><i className="fas fa-desktop m-2 fa-lg"></i></a>
+                <a href={item.github} target="new"><i className="fab fa-github-alt m-2 fa-lg"></i></a>
               </p>
             :
             null }
