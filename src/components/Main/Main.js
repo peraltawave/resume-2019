@@ -14,7 +14,7 @@ export default class Main extends Component {
               </div>
               <h1 className="txt-red pt-2">miguel peralta</h1>
 
-            <span className="text-center font-weight-normal txt-grey mt-1 mb-0 info-item-desc">front-end designer and react developer</span>
+            <span className="text-center font-weight-normal txt-grey mt-1 mb-0 info-item-desc">front-end designer and developer</span>
             </div>
           </div>
         </div>

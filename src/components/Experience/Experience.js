@@ -12,7 +12,7 @@ export default class Experience extends Component {
     const experiences = [
       {
         img: <img src={process.env.PUBLIC_URL+'/assets/img/logo_presto_200.png'} alt="PrestoSports"/>,
-        date: "2013-2018",
+        date: "2007-2017",
         company: "PrestoSports, Inc.",
         place: "Rockville, MD",
         position: "Creative Director",
@@ -20,7 +20,7 @@ export default class Experience extends Component {
       },
       {
         img: <img src={process.env.PUBLIC_URL+'/assets/img/logo_cnet_200x200.png'} alt="CNET Networks"/>,
-        date: "2007-2013",
+        date: "1999-2001",
         company: "CNET Networks",
         place: "Miami, FL",
         position: "Art Director",
@@ -28,7 +28,7 @@ export default class Experience extends Component {
       },
       {
         img: <img src={process.env.PUBLIC_URL+'/assets/img/logo_yahoo_200x200.png'} alt="Yahoo Music"/>,
-        date: "2000-2007",
+        date: "1997-1999",
         company: "Yahoo! Music",
         place: "Los Angeles, CA",
         position: "Sr. Graphic Designer",
