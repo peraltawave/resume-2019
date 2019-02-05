@@ -10,7 +10,7 @@ export default class Studies extends Component {
       {
         date: "2019",
         diplome: "Full Stack Web Development",
-        option: "Javascript / react / express / node",
+        option: "MongoDB / Express / React / Node",
         place: "University of Arizona",
       },
       {
