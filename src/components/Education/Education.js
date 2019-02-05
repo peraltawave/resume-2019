@@ -8,15 +8,15 @@ export default class Studies extends Component {
   render() {
     const experiences = [
       {
-        date: "July 2018 - January 2019",
+        date: "2019",
         diplome: "Full Stack Web Development",
         option: "Javascript / react / express / node",
         place: "University of Arizona",
       },
       {
-        date: "1992-1996",
+        date: "1996",
         diplome: "BA Communications",
-        option: "Television Production / Spanish",
+        option: "Film Production",
         place: "Loyola Marymount University",
       }
     ]
