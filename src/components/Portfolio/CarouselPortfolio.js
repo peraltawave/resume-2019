@@ -9,7 +9,7 @@ import {
 const items = [
   {
     title: 'newsImage',
-    src: process.env.PUBLIC_URL+'/assets/img/newsImage.png',
+    src: process.env.PUBLIC_URL+'/assets/img/port_newsImage.png',
     altText: 'newsImage',
     description: 'news represented by images',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Material UI"],
@@ -18,7 +18,7 @@ const items = [
   },
   {
     title: 'prestoSports',
-    src: process.env.PUBLIC_URL+'/assets/img/presto-collage-2.png',
+    src: process.env.PUBLIC_URL+'/assets/img/port_prestosports.png',
     altText: 'presto-redesign',
     description: "rebranding of prestoSports.com",
     tools: ["Webdesign","photoShop", "illustrator", "bootStrap"],
@@ -28,7 +28,7 @@ const items = [
   },
   {
     title: 'petFinder',
-    src: process.env.PUBLIC_URL+'/assets/img/cv-petfinder-003.png',
+    src: process.env.PUBLIC_URL+'/assets/img/port_petfinder.png',
     altText: 'petFinder',
     description: 'mobile app to report found animals',
     tools: ["Webdesign","Git", "Github", "React", "Bootstrap", "Semantic UI"],
@@ -37,7 +37,7 @@ const items = [
   },
   {
     title: 'Moncton Magic',
-    src: process.env.PUBLIC_URL+'/assets/img/moncton_magic_001.png',
+    src: process.env.PUBLIC_URL+'/assets/img/port_moncton.png',
     altText: 'Magic',
     description: 'canadian professional basketball',
     tools: ["Webdesign","photoShop", "illustrator"],
@@ -46,7 +46,7 @@ const items = [
   },
   {
     title: 'London Lightning',
-    src: process.env.PUBLIC_URL+'/assets/img/london_lightning_001.png',
+    src: process.env.PUBLIC_URL+'/assets/img/port_london.png',
     altText: 'Lightning',
     description: 'canadian professional basketball',
     tools: ["Webdesign","photoShop", "illustrator"],

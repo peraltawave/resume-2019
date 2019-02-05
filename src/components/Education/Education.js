@@ -33,7 +33,7 @@ export default class Studies extends Component {
             </div>
           </ScrollableAnchor>
 
-          <div className="container-content bg-grey-op-095">
+          <div className="container-content bg-grey-op-09">
             <div className="container-date">
               {experiences.map((para, index) => (
               <div className="date-box text-center" key={index}>
