@@ -9,8 +9,8 @@ export default class Contact extends Component {
       {
         icon: <i className="fas fa-globe icon"></i>,
         title: 'Portfolio',
-        location: 'mperalta.com',
-        link: 'https://www.mperalta.com',
+        location: 'peraltawave.com',
+        link: 'https://www.peraltawave.com',
         linkname: 'CLICK TO VISIT'
       },
       {
