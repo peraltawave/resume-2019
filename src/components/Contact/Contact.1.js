@@ -13,10 +13,11 @@ export default class Contact extends Component {
           <a className="badge badge-light mb-4" href="#main">tucson, az</a>
         
 
+{/* 
 
           <h5 className="font-weight-bold txt-green">online</h5>
           <a className="badge badge-light mb-4" href="https://www.mperalta.com">www.mperalta.com</a>
-
+ */}
 
 
           <h5 className="font-weight-bold txt-green">mobile</h5>
